@@ -1,0 +1,17 @@
+# Dependencias y build
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+
+# Variables de entorno y logs
+.env*
+*.log
+
+# Base de datos local y secreto de sesión (se generan en cada equipo)
+database/*.db
+database/*.db-*
+server/.secret
+
+# Sistema
+.DS_Store
